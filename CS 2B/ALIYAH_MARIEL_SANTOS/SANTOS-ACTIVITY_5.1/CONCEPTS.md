@@ -2,11 +2,13 @@
 
 These are the concepts employed during code implementation:
 
+---
+
 _animal.dart_
 
 ### 1. CONCEPT #1: Constructing Classes
 
-```
+```dart
 // CONCEPT #1: Constructing Classes
 class Animal {
   //a. Attributes:
@@ -30,7 +32,7 @@ class Animal {
 
 ### 2. CONCEPT #2: Variable Initialization
 
-```
+```dart
 // CONCEPT #2 Variable Initialization
 String dob;
 int numLegs;
@@ -38,7 +40,7 @@ int numLegs;
 
 ### 3. CONCEPT #3: Constructor Shorthand
 
-```
+```dart
   // Constructor
   Animal({
     // CONCEPT #3: Constructor Shorthand
@@ -52,7 +54,7 @@ int numLegs;
 
 ### 4. CONCEPT #4: Big Fat Arrow
 
-```
+```dart
   //  CONCEPT #4: Big Fat Arrow
 String displayInfo() =>
       //  CONCEPT #5: Multiline Strings
@@ -66,7 +68,7 @@ String displayInfo() =>
 
 ### 5. CONCEPT #5: Multiline Strings
 
-```
+```dart
 String displayInfo() =>
       //  CONCEPT #5: Multiline Strings
       """
@@ -77,11 +79,13 @@ String displayInfo() =>
     """;
 ```
 
+---
+
 _pet.dart_
 
 ### 6. CONCEPT #6: Named Function Parameters
 
-```
+```dart
   //  CONCEPT #6: Named Function Parameters
   Pet.withNickname({
     required String name,
@@ -93,11 +97,13 @@ _pet.dart_
        super(name: name, kingdom: kingdom, dob: dob, numLegs: numLegs);
 ```
 
+---
+
 _main.dart_
 
 ### 7. CONCEPT #7: Lists and Arrays
 
-```
+```dart
 // CONCEPT #7: Lists and Arrays
   List<Animal> ZOO = [
     Animal(name: 'Penguin', kingdom: 'Animalia', dob: '2016-04-12', numLegs: 2),
@@ -115,7 +121,7 @@ _main.dart_
 
 ### 8. CONCEPT #8: Looping
 
-```
+```dart
   //  CONCEPT #8: Looping
   for (var animal in ZOO) {
     print(animal.displayInfo());
