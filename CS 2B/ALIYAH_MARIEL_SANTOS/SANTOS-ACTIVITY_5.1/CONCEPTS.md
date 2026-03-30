@@ -1,8 +1,10 @@
-## CONCEPTS (list form):
+# CONCEPTS
 
-animal.dart
+These are the concepts employed during code implementation:
 
-1. CONCEPT #1: Constructing Classes
+_animal.dart_
+
+### 1. CONCEPT #1: Constructing Classes
 
 ```
 // CONCEPT #1: Constructing Classes
@@ -26,7 +28,7 @@ class Animal {
 }
 ```
 
-2. CONCEPT #2: Variable Initialization
+### 2. CONCEPT #2: Variable Initialization
 
 ```
 // CONCEPT #2 Variable Initialization
@@ -34,7 +36,7 @@ String dob;
 int numLegs;
 ```
 
-3. CONCEPT #3: Constructor Shorthand
+### 3. CONCEPT #3: Constructor Shorthand
 
 ```
   // Constructor
@@ -48,7 +50,7 @@ int numLegs;
 
 ```
 
-4. CONCEPT #4: Big Fat Arrow
+### 4. CONCEPT #4: Big Fat Arrow
 
 ```
   //  CONCEPT #4: Big Fat Arrow
@@ -62,7 +64,7 @@ String displayInfo() =>
     """;
 ```
 
-5. CONCEPT #5: Multiline Strings
+### 5. CONCEPT #5: Multiline Strings
 
 ```
 String displayInfo() =>
@@ -75,9 +77,9 @@ String displayInfo() =>
     """;
 ```
 
-pet.dart
+_pet.dart_
 
-6. CONCEPT #6: Named Function Parameters
+### 6. CONCEPT #6: Named Function Parameters
 
 ```
   //  CONCEPT #6: Named Function Parameters
@@ -91,9 +93,9 @@ pet.dart
        super(name: name, kingdom: kingdom, dob: dob, numLegs: numLegs);
 ```
 
-main.dart
+_main.dart_
 
-7. CONCEPT #7: Lists and Arrays
+### 7. CONCEPT #7: Lists and Arrays
 
 ```
 // CONCEPT #7: Lists and Arrays
@@ -111,7 +113,7 @@ main.dart
   ];
 ```
 
-8. CONCEPT #8: Looping
+### 8. CONCEPT #8: Looping
 
 ```
   //  CONCEPT #8: Looping
